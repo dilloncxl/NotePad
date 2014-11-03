@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8433184B19AA20A10038A747 /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433184A19AA20A10038A747 /* NoteTableViewCell.m */; };
+		8433184E19AB39880038A747 /* NoteInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433184D19AB39880038A747 /* NoteInfoViewController.m */; };
+		844F8A9B19D93CE800D0D77F /* FTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F8A9A19D93CE800D0D77F /* FTPManager.m */; };
+		844F8A9D19D944F800D0D77F /* test_upload.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 844F8A9C19D944F800D0D77F /* test_upload.jpg */; };
+		84B8671D19F89C0300B43794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B8671B19F89C0300B43794 /* Main.storyboard */; };
+		84B8672019F8A88F00B43794 /* FTPFileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8671F19F8A88F00B43794 /* FTPFileTableViewCell.m */; };
+		84B8672319F8AA3800B43794 /* FTPFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8672219F8AA3800B43794 /* FTPFileViewController.m */; };
+		84B867771A00CB9900B43794 /* PhotoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B867761A00CB9900B43794 /* PhotoButton@2x.png */; };
+		84B867791A00CBF700B43794 /* micro_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B867781A00CBF700B43794 /* micro_small@2x.png */; };
 		84FEBE6D1970D7C0009C1226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FEBE6C1970D7C0009C1226 /* Foundation.framework */; };
 		84FEBE6F1970D7C0009C1226 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FEBE6E1970D7C0009C1226 /* CoreGraphics.framework */; };
 		84FEBE711970D7C0009C1226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FEBE701970D7C0009C1226 /* UIKit.framework */; };
 		84FEBE771970D7C0009C1226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84FEBE751970D7C0009C1226 /* InfoPlist.strings */; };
 		84FEBE791970D7C0009C1226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBE781970D7C0009C1226 /* main.m */; };
 		84FEBE7D1970D7C0009C1226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBE7C1970D7C0009C1226 /* AppDelegate.m */; };
-		84FEBE801970D7C0009C1226 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEBE7E1970D7C0009C1226 /* Main_iPhone.storyboard */; };
-		84FEBE831970D7C0009C1226 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEBE811970D7C0009C1226 /* Main_iPad.storyboard */; };
-		84FEBE861970D7C0009C1226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBE851970D7C0009C1226 /* ViewController.m */; };
+		84FEBE861970D7C0009C1226 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBE851970D7C0009C1226 /* LoginViewController.m */; };
 		84FEBE881970D7C0009C1226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FEBE871970D7C0009C1226 /* Images.xcassets */; };
 		84FEBE8F1970D7C0009C1226 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FEBE8E1970D7C0009C1226 /* XCTest.framework */; };
 		84FEBE901970D7C0009C1226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FEBE6C1970D7C0009C1226 /* Foundation.framework */; };
 		84FEBE911970D7C0009C1226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FEBE701970D7C0009C1226 /* UIKit.framework */; };
 		84FEBE991970D7C0009C1226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84FEBE971970D7C0009C1226 /* InfoPlist.strings */; };
 		84FEBE9B1970D7C0009C1226 /* NotePadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBE9A1970D7C0009C1226 /* NotePadTests.m */; };
+		84FEBEA91970E0B7009C1226 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBEA81970E0B7009C1226 /* RegisterViewController.m */; };
+		84FEBEAF197128FD009C1226 /* NPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBEAE197128FD009C1226 /* NPUser.m */; };
+		84FEBEB219712DCA009C1226 /* NotePad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBEB019712DCA009C1226 /* NotePad.xcdatamodeld */; };
+		84FEBF03197132A2009C1226 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FEBF02197132A2009C1226 /* CoreData.framework */; };
+		84FEBF331972E73F009C1226 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBF321972E73F009C1226 /* iToast.m */; };
+		84FEBF3819738008009C1226 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBF3719738008009C1226 /* UIView+Toast.m */; };
+		84FEBF3B1973884B009C1226 /* NoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBF3A1973884B009C1226 /* NoteListViewController.m */; };
+		84FEBF3E19738AA4009C1226 /* NPInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBF3D19738AA4009C1226 /* NPInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8433184919AA20A10038A747 /* NoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTableViewCell.h; sourceTree = "<group>"; };
+		8433184A19AA20A10038A747 /* NoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewCell.m; sourceTree = "<group>"; };
+		8433184C19AB39880038A747 /* NoteInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteInfoViewController.h; sourceTree = "<group>"; };
+		8433184D19AB39880038A747 /* NoteInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteInfoViewController.m; sourceTree = "<group>"; };
+		844F8A9919D93CE800D0D77F /* FTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPManager.h; path = FTPManager/FTPManager.h; sourceTree = "<group>"; };
+		844F8A9A19D93CE800D0D77F /* FTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPManager.m; path = FTPManager/FTPManager.m; sourceTree = "<group>"; };
+		844F8A9C19D944F800D0D77F /* test_upload.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_upload.jpg; sourceTree = "<group>"; };
+		84B8671C19F89C0300B43794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B8671E19F8A88F00B43794 /* FTPFileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPFileTableViewCell.h; sourceTree = "<group>"; };
+		84B8671F19F8A88F00B43794 /* FTPFileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPFileTableViewCell.m; sourceTree = "<group>"; };
+		84B8672119F8AA3800B43794 /* FTPFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPFileViewController.h; sourceTree = "<group>"; };
+		84B8672219F8AA3800B43794 /* FTPFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPFileViewController.m; sourceTree = "<group>"; };
+		84B867761A00CB9900B43794 /* PhotoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PhotoButton@2x.png"; path = "../../NotePad_back/PhotoButton@2x.png"; sourceTree = "<group>"; };
+		84B867781A00CBF700B43794 /* micro_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "micro_small@2x.png"; path = "../../NotePad_back/micro_small@2x.png"; sourceTree = "<group>"; };
 		84FEBE691970D7C0009C1226 /* NotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FEBE6C1970D7C0009C1226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84FEBE6E1970D7C0009C1226 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,16 +74,28 @@
 		84FEBE7A1970D7C0009C1226 /* NotePad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotePad-Prefix.pch"; sourceTree = "<group>"; };
 		84FEBE7B1970D7C0009C1226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84FEBE7C1970D7C0009C1226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84FEBE7F1970D7C0009C1226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		84FEBE821970D7C0009C1226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		84FEBE841970D7C0009C1226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84FEBE851970D7C0009C1226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84FEBE841970D7C0009C1226 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		84FEBE851970D7C0009C1226 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		84FEBE871970D7C0009C1226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84FEBE8D1970D7C0009C1226 /* NotePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FEBE8E1970D7C0009C1226 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84FEBE961970D7C0009C1226 /* NotePadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotePadTests-Info.plist"; sourceTree = "<group>"; };
 		84FEBE981970D7C0009C1226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84FEBE9A1970D7C0009C1226 /* NotePadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotePadTests.m; sourceTree = "<group>"; };
+		84FEBEA71970E0B7009C1226 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		84FEBEA81970E0B7009C1226 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		84FEBEAD197128FD009C1226 /* NPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPUser.h; sourceTree = "<group>"; };
+		84FEBEAE197128FD009C1226 /* NPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPUser.m; sourceTree = "<group>"; };
+		84FEBEB119712DCA009C1226 /* NotePad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotePad.xcdatamodel; sourceTree = "<group>"; };
+		84FEBF02197132A2009C1226 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84FEBF311972E73F009C1226 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		84FEBF321972E73F009C1226 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		84FEBF3619738008009C1226 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		84FEBF3719738008009C1226 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		84FEBF391973884B009C1226 /* NoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListViewController.h; sourceTree = "<group>"; };
+		84FEBF3A1973884B009C1226 /* NoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListViewController.m; sourceTree = "<group>"; };
+		84FEBF3C19738AA4009C1226 /* NPInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPInfo.h; sourceTree = "<group>"; };
+		84FEBF3D19738AA4009C1226 /* NPInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FEBF03197132A2009C1226 /* CoreData.framework in Frameworks */,
 				84FEBE6F1970D7C0009C1226 /* CoreGraphics.framework in Frameworks */,
 				84FEBE711970D7C0009C1226 /* UIKit.framework in Frameworks */,
 				84FEBE6D1970D7C0009C1226 /* Foundation.framework in Frameworks */,
@@ -81,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844F8A9819D93C6E00D0D77F /* FTPManager */ = {
+			isa = PBXGroup;
+			children = (
+				844F8A9919D93CE800D0D77F /* FTPManager.h */,
+				844F8A9A19D93CE800D0D77F /* FTPManager.m */,
+			);
+			name = FTPManager;
+			sourceTree = "<group>";
+		};
 		84FEBE601970D7C0009C1226 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +154,7 @@
 		84FEBE6B1970D7C0009C1226 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84FEBF02197132A2009C1226 /* CoreData.framework */,
 				84FEBE6C1970D7C0009C1226 /* Foundation.framework */,
 				84FEBE6E1970D7C0009C1226 /* CoreGraphics.framework */,
 				84FEBE701970D7C0009C1226 /* UIKit.framework */,
@@ -114,12 +166,14 @@
 		84FEBE721970D7C0009C1226 /* NotePad */ = {
 			isa = PBXGroup;
 			children = (
+				844F8A9819D93C6E00D0D77F /* FTPManager */,
+				84FEBF3519738008009C1226 /* Toast */,
+				84FEBF301972E70F009C1226 /* util */,
+				84FEBEAC19712892009C1226 /* controller */,
+				84FEBEAB19712883009C1226 /* view */,
+				84FEBEAA1971285F009C1226 /* modle */,
 				84FEBE7B1970D7C0009C1226 /* AppDelegate.h */,
 				84FEBE7C1970D7C0009C1226 /* AppDelegate.m */,
-				84FEBE7E1970D7C0009C1226 /* Main_iPhone.storyboard */,
-				84FEBE811970D7C0009C1226 /* Main_iPad.storyboard */,
-				84FEBE841970D7C0009C1226 /* ViewController.h */,
-				84FEBE851970D7C0009C1226 /* ViewController.m */,
 				84FEBE871970D7C0009C1226 /* Images.xcassets */,
 				84FEBE731970D7C0009C1226 /* Supporting Files */,
 			);
@@ -129,6 +183,9 @@
 		84FEBE731970D7C0009C1226 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84B867781A00CBF700B43794 /* micro_small@2x.png */,
+				84B867761A00CB9900B43794 /* PhotoButton@2x.png */,
+				844F8A9C19D944F800D0D77F /* test_upload.jpg */,
 				84FEBE741970D7C0009C1226 /* NotePad-Info.plist */,
 				84FEBE751970D7C0009C1226 /* InfoPlist.strings */,
 				84FEBE781970D7C0009C1226 /* main.m */,
@@ -153,6 +210,65 @@
 				84FEBE971970D7C0009C1226 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FEBEAA1971285F009C1226 /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				84FEBEAD197128FD009C1226 /* NPUser.h */,
+				84FEBEAE197128FD009C1226 /* NPUser.m */,
+				84FEBEB019712DCA009C1226 /* NotePad.xcdatamodeld */,
+				84FEBF3C19738AA4009C1226 /* NPInfo.h */,
+				84FEBF3D19738AA4009C1226 /* NPInfo.m */,
+			);
+			name = modle;
+			sourceTree = "<group>";
+		};
+		84FEBEAB19712883009C1226 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				84B8671B19F89C0300B43794 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		84FEBEAC19712892009C1226 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				84FEBEA71970E0B7009C1226 /* RegisterViewController.h */,
+				84FEBEA81970E0B7009C1226 /* RegisterViewController.m */,
+				84FEBE841970D7C0009C1226 /* LoginViewController.h */,
+				84FEBE851970D7C0009C1226 /* LoginViewController.m */,
+				84FEBF391973884B009C1226 /* NoteListViewController.h */,
+				84FEBF3A1973884B009C1226 /* NoteListViewController.m */,
+				8433184919AA20A10038A747 /* NoteTableViewCell.h */,
+				8433184A19AA20A10038A747 /* NoteTableViewCell.m */,
+				8433184C19AB39880038A747 /* NoteInfoViewController.h */,
+				8433184D19AB39880038A747 /* NoteInfoViewController.m */,
+				84B8671E19F8A88F00B43794 /* FTPFileTableViewCell.h */,
+				84B8671F19F8A88F00B43794 /* FTPFileTableViewCell.m */,
+				84B8672119F8AA3800B43794 /* FTPFileViewController.h */,
+				84B8672219F8AA3800B43794 /* FTPFileViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		84FEBF301972E70F009C1226 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				84FEBF311972E73F009C1226 /* iToast.h */,
+				84FEBF321972E73F009C1226 /* iToast.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		84FEBF3519738008009C1226 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				84FEBF3619738008009C1226 /* UIView+Toast.h */,
+				84FEBF3719738008009C1226 /* UIView+Toast.m */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +318,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					84FEBE681970D7C0009C1226 = {
+						DevelopmentTeam = Q2292425WF;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
 					84FEBE8C1970D7C0009C1226 = {
 						TestTargetID = 84FEBE681970D7C0009C1226;
 					};
@@ -231,10 +355,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FEBE831970D7C0009C1226 /* Main_iPad.storyboard in Resources */,
 				84FEBE881970D7C0009C1226 /* Images.xcassets in Resources */,
-				84FEBE801970D7C0009C1226 /* Main_iPhone.storyboard in Resources */,
 				84FEBE771970D7C0009C1226 /* InfoPlist.strings in Resources */,
+				844F8A9D19D944F800D0D77F /* test_upload.jpg in Resources */,
+				84B867791A00CBF700B43794 /* micro_small@2x.png in Resources */,
+				84B867771A00CB9900B43794 /* PhotoButton@2x.png in Resources */,
+				84B8671D19F89C0300B43794 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +379,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FEBE861970D7C0009C1226 /* ViewController.m in Sources */,
+				84FEBF331972E73F009C1226 /* iToast.m in Sources */,
+				84FEBEA91970E0B7009C1226 /* RegisterViewController.m in Sources */,
+				84FEBE861970D7C0009C1226 /* LoginViewController.m in Sources */,
+				8433184B19AA20A10038A747 /* NoteTableViewCell.m in Sources */,
+				84FEBF3B1973884B009C1226 /* NoteListViewController.m in Sources */,
 				84FEBE7D1970D7C0009C1226 /* AppDelegate.m in Sources */,
+				84FEBEAF197128FD009C1226 /* NPUser.m in Sources */,
+				844F8A9B19D93CE800D0D77F /* FTPManager.m in Sources */,
+				84B8672019F8A88F00B43794 /* FTPFileTableViewCell.m in Sources */,
 				84FEBE791970D7C0009C1226 /* main.m in Sources */,
+				84B8672319F8AA3800B43794 /* FTPFileViewController.m in Sources */,
+				8433184E19AB39880038A747 /* NoteInfoViewController.m in Sources */,
+				84FEBF3E19738AA4009C1226 /* NPInfo.m in Sources */,
+				84FEBF3819738008009C1226 /* UIView+Toast.m in Sources */,
+				84FEBEB219712DCA009C1226 /* NotePad.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,28 +416,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		84B8671B19F89C0300B43794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B8671C19F89C0300B43794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		84FEBE751970D7C0009C1226 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84FEBE761970D7C0009C1226 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		84FEBE7E1970D7C0009C1226 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84FEBE7F1970D7C0009C1226 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		84FEBE811970D7C0009C1226 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84FEBE821970D7C0009C1226 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		84FEBE971970D7C0009C1226 /* InfoPlist.strings */ = {
@@ -390,10 +520,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotePad/NotePad-Prefix.pch";
 				INFOPLIST_FILE = "NotePad/NotePad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +537,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotePad/NotePad-Prefix.pch";
 				INFOPLIST_FILE = "NotePad/NotePad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +608,7 @@
 				84FEBEA01970D7C0009C1226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84FEBEA11970D7C0009C1226 /* Build configuration list for PBXNativeTarget "NotePadTests" */ = {
 			isa = XCConfigurationList;
@@ -478,8 +617,22 @@
 				84FEBEA31970D7C0009C1226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84FEBEB019712DCA009C1226 /* NotePad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84FEBEB119712DCA009C1226 /* NotePad.xcdatamodel */,
+			);
+			currentVersion = 84FEBEB119712DCA009C1226 /* NotePad.xcdatamodel */;
+			path = NotePad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84FEBE611970D7C0009C1226 /* Project object */;
 }
